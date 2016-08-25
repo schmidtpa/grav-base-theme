@@ -1,0 +1,8 @@
+name: base-theme
+version: 1.0
+description: "a simple Grav Theme with a top menu "
+author:
+  name: Patrick Schmidt
+  email: patrick@ealp-net.at
+  url: https://github.com/schmidtpa/grav-base-theme
+  license: MIT

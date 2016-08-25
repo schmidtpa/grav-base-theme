@@ -1,0 +1,105 @@
+body  {
+    background: white;
+    margin:0px;
+    margin-bottom: 50px;
+    
+    font-family: "Open Sans", sans-serif;
+    color: #535353;
+    line-height: 1.65em;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:black;
+}
+
+.header{
+   display: block;
+   width:100%;
+   background-color: #fff;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 999;
+   height: 25px;
+   padding-top:30px;
+   padding-bottom:25px;
+   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+    text-decoration: none;
+    font-family: 'Playball', cursive;
+    font-size: 34px;
+    color: #FF6C40;
+    letter-spacing: -2px;
+}
+
+.main-nav{
+    float:  right;
+}
+
+#navbar ul{
+    list-style: none;
+    margin: 0;
+    padding:0px;
+}
+
+#navbar ul li{
+    text-align: left;
+    float: left;
+    vertical-align: baseline;
+    margin-right: 0;
+    margin-left: 1.65em;
+}
+
+#navbar ul li a{
+    color: #535353;
+    text-decoration:none;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#navbar ul li.active a,
+#navbar ul li a:hover {
+    color: #FF6C40;
+}
+
+.banner {
+    margin-top:50px;
+    height:300px;
+}
+
+.content{
+    
+}
+
+.content a{
+    text-decoration: none;
+    color: #FF6C40;
+}   
+
+.content a:hover{
+   color: darkred; 
+}
+
+.container{
+    max-width:800px;
+    margin:0px auto;
+}
+
+footer{
+    height:80px;
+    padding-top:40px;
+    text-align:center;
+}
+
+footer a{
+    color: #A5A5A5;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;   
+}
