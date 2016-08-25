@@ -1,0 +1,12 @@
+{% extends 'partials/base.html.twig' %}
+{% block content %}
+<article>
+  <header>
+    <h2>{{ form.message }}</h2>
+  </header>
+
+  {{ content }}
+
+  {% include "forms/data.html.twig" %}
+</article>
+{% endblock %}
