@@ -174,3 +174,12 @@ input{
     margin: 0;
     box-sizing: border-box;
 }
+
+.form-field{
+    margin-top:1.0em;
+}
+
+.required{
+   color:red;
+   font-weight:bold;
+}
