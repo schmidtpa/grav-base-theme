@@ -1,4 +1,4 @@
 enabled: true
 footer:
-    link: '/impressum'
+    url: '/impressum'
     text: 'Impressum'
